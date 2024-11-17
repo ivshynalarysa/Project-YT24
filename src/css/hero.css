@@ -1,0 +1,144 @@
+.hero-wraper {
+  margin-bottom: 28px;
+}
+
+.hero-wraper-title-text {
+  margin-bottom: 28px;
+}
+
+.hero-title {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 0.95;
+  letter-spacing: -0.02em;
+  margin-bottom: 20px;
+}
+
+.hero-title-span {
+  color: #3350e9;
+}
+
+.hero-text {
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.7);
+}
+
+.hero-ellipse-scroll-wraper {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  margin-bottom: 28px;
+}
+
+.hero-ellipse-wraper {
+  display: flex;
+}
+
+.hero-elipse-image {
+  width: 44px;
+  border-radius: 50%;
+}
+
+.hero-ellipse-center {
+  margin-left: -12px;
+}
+
+.hero-ellipse-end {
+  margin-left: -12px;
+}
+
+.hero-scroll {
+  font-weight: 500;
+  font-size: 14px;
+  color: #0c0c0c;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  transition: color 250ms ease;
+}
+
+.hero-scroll:hover,
+.hero-scroll:focus {
+  color: #3350e9;
+}
+
+@media (min-width: 768px) {
+  .section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .hero-wraper {
+    display: flex;
+    margin-bottom: 40px;
+  }
+
+  .hero-wraper-title-text {
+    margin-bottom: 0;
+  }
+
+  .hero-title {
+    font-size: 70px;
+    line-height: 0.86;
+    max-width: 557px;
+  }
+
+  .hero-text {
+    font-size: 16px;
+    line-height: 1.25;
+    max-width: 480px;
+  }
+
+  .hero-ellipse-scroll-wraper {
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+
+  .hero-elipse-image {
+    width: 56px;
+  }
+
+  .hero-scroll {
+    font-size: 20px;
+    line-height: 1;
+  }
+
+  .hero-ellipse-center {
+    margin-left: -16px;
+  }
+
+  .hero-ellipse-end {
+    margin-left: -16px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .section {
+    padding-top: 80px;
+    padding-bottom: 100px;
+  }
+
+  .hero-wraper {
+    justify-content: space-between;
+  }
+
+  .hero-title {
+    font-size: 72px;
+    line-height: 0.87;
+    max-width: 597px;
+  }
+
+  .hero-elipse-image {
+    width: 60px;
+  }
+
+  .hero-ellipse-center {
+    margin-left: -17px;
+  }
+
+  .hero-ellipse-end {
+    margin-left: -17px;
+  }
+}
