@@ -1,0 +1,130 @@
+.reviews-item-anastasia,
+.reviews-item-victoria {
+  display: none;
+}
+
+.reviews {
+  padding: 0;
+  background-color: #ffffff;
+  text-align: left;
+  margin-top: 60px;
+}
+.reviews-title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+  margin-bottom: 24px;
+}
+.reviews-container {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  max-width: 768px;
+}
+.reviews-list {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+.reviews-item {
+  background-color: #f3f3f3;
+  border-radius: 30px;
+  padding: 32px 36px;
+  width: 100%;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+.reviews-item:hover {
+  transform: translateY(-5px);
+}
+
+.reviews-image {
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 24px;
+}
+.reviews-subtitle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #0c0c0c;
+  margin-bottom: 8px;
+}
+.reviews-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: rgba(12, 12, 12, 0.4);
+}
+
+/*___________________Media_______________*/
+@media screen and (min-width: 768px) {
+  .reviews-item-victoria {
+    display: block;
+  }
+  .reviews {
+    margin-top: 80px;
+  }
+  .reviews-title {
+    font-size: 48px;
+    line-height: 0.92;
+  }
+
+  .reviews-container {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    width: 100%;
+    max-width: 768px;
+  }
+  .reviews-subtitle {
+    font-size: 18px;
+    line-height: 1.1;
+  }
+  .reviews-text {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+  .reviews-list {
+    display: flex;
+    gap: 16px;
+  }
+
+  .reviews-item {
+    width: calc((100% - 16px) / 2);
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .reviews {
+    margin-top: 100px;
+  }
+
+  .reviews-title {
+    font-size: 48px;
+    line-height: 0.92;
+    margin-bottom: 40px;
+  }
+  .reviews-list {
+    display: flex;
+    gap: 20px;
+  }
+
+  .reviews-item {
+    width: calc((100% - 40px) / 3);
+  }
+
+  .reviews-item-anastasia {
+    display: block;
+  }
+  .reviews-container {
+    max-width: 100%;
+  }
+}
