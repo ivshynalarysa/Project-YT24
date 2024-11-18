@@ -6,7 +6,6 @@
 }
 
 .container {
-
     padding-left: 28px;
     padding-right: 28px;
 }
@@ -40,12 +39,12 @@
     justify-content: center;
 }
 
-
-
 .footer-soc-link {}
 
 .footer-soc-icon {
     fill: #fbfbfb;
+
+    transition: fill 250ms ease;
 }
 
 .footer-soc-icon:hover,
@@ -81,7 +80,9 @@
     text-align: center;
     color: #fbfbfb;
     max-width: 279px;
+    margin: 0 auto;
     margin-bottom: 92px;
+
 }
 
 .nav-address-wrapper {
@@ -155,9 +156,11 @@
 
 
 @media screen and (min-width: 768px) {
+    .footer {
+        max-width: 768px;
+    }
 
     .container {
-
         padding-left: 40px;
         padding-right: 40px;
         position: relative;
@@ -179,7 +182,7 @@
 
     .footer-telephone-wrapper {
         position: absolute;
-        top: 0px;
+        top: 40px;
         right: 40px;
     }
 
@@ -246,8 +249,10 @@
 }
 
 @media screen and (min-width: 1280px) {
-    .container {
 
+
+    .container {
+        max-width: 1280px;
         padding-left: 40px;
         padding-right: 40px;
     }
@@ -259,17 +264,18 @@
 
     .footer-long-text {
         position: absolute;
-        top: 0px;
-        right: 347px;
+        top: 40px;
+        left: 50%;
+        transform: translateX(-50%);
         max-width: 523px;
         font-size: 28px;
-        line-height: 1.14286;
+        line-height: 1.14;
         letter-spacing: -0.02em;
+        margin: 0 auto;
     }
 
     .nav-address-wrapper {
         gap: 469px;
     }
 
-    .foter-policies-list {}
 }
