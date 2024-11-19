@@ -1,0 +1,152 @@
+.advertisement-container {
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    
+    height: 363px;
+    background-color: #0c0c0c;
+    background-image:  
+    linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+        url(../img/advertisement/choosemobone.webp);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .advertisement-context {
+        display: flex;
+        flex-direction: column;
+        padding-top: 36px;
+        
+    }
+    .advertisement-text {
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 1;
+        letter-spacing: -0.02em;
+        color: #fbfbfb;
+        
+    }
+    
+    .advertisement-text-color {
+        color: rgba(251, 251, 251, 0.5);
+    }
+    .advertisement-link {
+    line-height: 1.28571;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 48px;
+    border: 1px solid rgba(251, 251, 251, 0.15);
+    border-radius: 16px;
+    margin-top: 28px;
+    color: #fbfbfb;
+    transition: background-color 250ms easy 1000ms, color 250ms easy 0;
+    }
+    .advertisement-link:hover, .advertisement-link:focus {
+        background-color: #fbfbfb;
+        color: #0c0c0c;}
+
+    
+    @media  (min-resolution: 192dpi) {
+        .advertisement-container {
+            
+          background-image: linear-gradient(
+              rgba(46, 47, 66, 0.7),
+              rgba(46, 47, 66, 0.7)
+            ),
+            url(../img/advertisement/choosemobtwo.webp);
+        }
+      }
+    
+    @media screen and (min-width: 768px) {
+        .advertisement-container {
+           
+         
+            height: 425px;
+    
+            
+            background-image: linear-gradient(
+            rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)),  
+            url(../img/advertisement/choosetabletone.webp);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+    }
+    
+    .advertisement-context{
+      padding-top: 56px;
+      
+      padding-right: 64px;
+      padding-left: 64px;
+        
+    }
+    
+    .advertisement-text {
+        font-size: 48px;
+        
+    }
+    
+    .advertisement-link {margin-top: 32px;
+    }
+    
+    @media  (min-resolution: 192dpi) {
+        .advertisement-container {
+            background-color: #0c0c0c;
+          background-image: linear-gradient(
+              rgba(46, 47, 66, 0.7),
+              rgba(46, 47, 66, 0.7)
+            ),
+            url(../img/advertisement/choosetablettwo.webp);
+        }
+    
+      }
+    }
+      
+      @media screen and (min-width: 1280px) {
+        .advertisement-container {
+            width: 1280px;
+            height: 298px;
+           
+            background-image: linear-gradient(
+            rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)),  
+            url(../img/advertisement/Choosedeskone.webp);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+    }
+       .advertisement-context {
+        
+        
+        padding-top:  54px;
+        padding-right: 80px;
+        padding-left: 80px;
+        flex-direction: row;
+        gap: 140px;
+        justify-content: space-between;
+       }
+       .advertisement-text {width: 690px;}
+    
+    .advertisement-link {
+        
+        margin-top: 0;
+        
+        }
+    
+        @media  (min-resolution: 192dpi) {
+            .advertisement-container {
+              background-image: linear-gradient(
+                  rgba(46, 47, 66, 0.7),
+                  rgba(46, 47, 66, 0.7)
+                ),
+                url(../img/advertisement/choosedesktwo.webp);
+            }
+        
+          }   
+    
+        }
