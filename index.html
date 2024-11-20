@@ -18,7 +18,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
 
-    <link rel="stylesheet" crossorigin href="/project-yt24/assets/index-8sLXe4J6.css">
+    <link rel="stylesheet" crossorigin href="/project-yt24/assets/index-DEsffjLc.css">
   </head>
 
   <body>
@@ -112,7 +112,68 @@
       
 
     <!--Maksym Bilous-->
-      
+      <section class="section contact" id="contact">
+  <div class="container">
+    <h2 class="contact-title">Contact us</h2>
+    <div class="contact-wrapper">
+      <form class="contact-form">
+        <p class="contact-descr">
+          Please use the form below to contact us. Enter your name, email,
+          phone, and message and we'll get back to you shortly.
+        </p>
+        <input
+          type="text"
+          name="user-name"
+          class="contact-input"
+          placeholder="Name"
+        />
+        <input
+          type="email"
+          name="user-email"
+          class="contact-input"
+          placeholder="Email"
+          pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+          title="Enter a valid email address (e.g., user@example.com)"
+        />
+        <input
+          type="tel"
+          name="user-tel"
+          class="contact-input"
+          placeholder="+380"
+          pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
+          title="Enter a phone number in the format: +380-XX-XXX-XX-XX"
+        />
+        <textarea
+          name="user-comment"
+          class="contact-textarea"
+          placeholder="Comment"
+        ></textarea>
+        <button class="contact-btn" type="submit">Send</button>
+      </form>
+      <picture>
+        <source
+          srcset="/project-yt24/assets/contactdeskone-QyjJQChl.webp 1x, /project-yt24/assets/contactdesktwo-0mWNUQyH.webp 2x"
+          media="(min-width: 1280px)"
+        />
+        <source
+          srcset="/project-yt24/assets/contacttabletone-Di4RRVXU.webp 1x, /project-yt24/assets/contacttablettwo-CoiIHJYg.webp 2x"
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="/project-yt24/assets/contactmobone-B_GNK87j.webp 1x, /project-yt24/assets/contactmobtwo-CTrTWCHJ.webp 2x"
+          media="(max-width: 767px)"
+        />
+        <img
+          src="/project-yt24/assets/contactdeskone-QyjJQChl.webp"
+          alt="swatch"
+          class="contact-image"
+          width="530"
+        />
+      </picture>
+    </div>
+  </div>
+</section>
+
       
     </main>
 
