@@ -2,15 +2,15 @@
     display: flex;
     flex-direction: column;
     border-radius: 30px;
-    
-    height: 363px;
+    max-width: 767px;
+    height: auto;
     background-color: #0c0c0c;
     background-image:  
     linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-        url(../img/advertisement/choosemobone.webp);
+        url(./img/advertisement/choosemobone.webp);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -18,8 +18,7 @@
     .advertisement-context {
         display: flex;
         flex-direction: column;
-        padding-top: 36px;
-        
+        padding: 60px 28px;
     }
     .advertisement-text {
         font-weight: 600;
@@ -27,14 +26,13 @@
         line-height: 1;
         letter-spacing: -0.02em;
         color: #fbfbfb;
-        
     }
     
     .advertisement-text-color {
         color: rgba(251, 251, 251, 0.5);
     }
     .advertisement-link {
-    line-height: 1.28571;
+    line-height: 1.3;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -53,42 +51,33 @@
     
     @media  (min-resolution: 192dpi) {
         .advertisement-container {
-            
           background-image: linear-gradient(
               rgba(46, 47, 66, 0.7),
               rgba(46, 47, 66, 0.7)
-            ),
-            url(../img/advertisement/choosemobtwo.webp);
+          ),
+          url(./img/advertisement/choosemobtwo.webp);
         }
       }
     
     @media screen and (min-width: 768px) {
         .advertisement-container {
-           
-         
-            height: 425px;
-    
-            
-            background-image: linear-gradient(
+          max-width: 1279px;
+          height: 425px;
+          background-image: linear-gradient(
             rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)),  
-            url(../img/advertisement/choosetabletone.webp);
+          url(./img/advertisement/choosetabletone.webp);
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
     }
     
     .advertisement-context{
-      padding-top: 56px;
-      
-      padding-right: 64px;
-      padding-left: 64px;
-        
+     padding: 80px 64px;
     }
     
     .advertisement-text {
         font-size: 48px;
-        
     }
     
     .advertisement-link {margin-top: 32px;
@@ -96,57 +85,53 @@
     
     @media  (min-resolution: 192dpi) {
         .advertisement-container {
-            background-color: #0c0c0c;
+           
           background-image: linear-gradient(
               rgba(46, 47, 66, 0.7),
               rgba(46, 47, 66, 0.7)
-            ),
-            url(../img/advertisement/choosetablettwo.webp);
+          ),
+          url(./img/advertisement/choosetablettwo.webp);
         }
     
       }
     }
       
-      @media screen and (min-width: 1280px) {
-        .advertisement-container {
-            width: 1280px;
-            height: 298px;
+    @media screen and (min-width: 1280px) {
+
+    .advertisement-container {
+        max-width:  1150px;
+        height: 298px;
            
-            background-image: linear-gradient(
+        background-image: linear-gradient(
             rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)),  
-            url(../img/advertisement/Choosedeskone.webp);
+        url(./img/advertisement/Choosedeskone.webp);
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
     }
-       .advertisement-context {
-        
-        
-        padding-top:  54px;
-        padding-right: 80px;
-        padding-left: 80px;
+    .advertisement-context {
+        padding: 83px 80px;
         flex-direction: row;
         gap: 140px;
         justify-content: space-between;
        }
-       .advertisement-text {width: 690px;}
+    .advertisement-text {width: 690px;}
     
     .advertisement-link {
-        
         margin-top: 0;
         
         }
     
-        @media  (min-resolution: 192dpi) {
-            .advertisement-container {
-              background-image: linear-gradient(
+     @media  (min-resolution: 192dpi) {
+      .advertisement-container {
+        background-image: linear-gradient(
                   rgba(46, 47, 66, 0.7),
                   rgba(46, 47, 66, 0.7)
-                ),
-                url(../img/advertisement/choosedesktwo.webp);
-            }
-        
-          }   
-    
+        ),
+        url(./img/advertisement/choosedesktwo.webp);
         }
+        
+     }   
+    
+    }
