@@ -1,26 +1,19 @@
 .catalog-title {
-  font-weight: 600;
   font-size: 32px;
   line-height: 1;
   letter-spacing: -0.02em;
-  color: #0c0c0c;
-  text-align: left;
-  /* text-transform: capitalize; */
   margin-bottom: 24px;
 }
 
 .catalog-subtitle {
-  font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
   letter-spacing: -0.02em;
-  color: #0c0c0c;
   margin-bottom: 8px;
 }
 
 .catalog-def {
   font-weight: 400;
-  font-size: 14px;
   line-height: 1.3;
   letter-spacing: -0.02em;
   color: rgba(12, 12, 12, 0.5);
@@ -37,21 +30,22 @@
   border: 1px solid rgba(12, 12, 12, 0.05);
   border-radius: 30px;
   background-color: #f3f3f3;
-  padding: 24 28px;
+  padding: 24px 28px;
   max-width: 335px;
 }
 
-.catalog-container {
+/* .catalog-container {
   padding: 0 28px;
   padding-top: 10px;
   padding-bottom: 24px;
-}
+} */
 
 .img-overline {
   position: relative;
   overflow: hidden;
 }
 .catalog-button {
+  display: flex;
   border-radius: 16px;
   min-width: 160px;
   width: 160px;
@@ -82,14 +76,13 @@
 
 @media screen and (min-width: 768px) {
   .catalog-item {
-    width: calc((100% - 48px) / 2);
+    width: calc((100% - 32px) / 2);
   }
 
   .catalog-button {
     display: none;
   }
   .catalog-list {
-    display: flex;
     row-gap: 32px;
     column-gap: 16px;
     flex-wrap: wrap;
@@ -110,9 +103,7 @@
   }
 
   .catalog-container {
-    padding: 0 32px;
-    padding-top: 10px;
-    padding-bottom: 24px;
+    padding: 24px 32px;
   }
 
   .catalog-item {
@@ -125,13 +116,13 @@
 }
 @media screen and (min-width: 1280px) {
   .catalog-item {
-    width: calc((100% - 48px) / 3);
+    width: calc((100% - 46px) / 3);
+    max-width: 368px;
   }
   .catalog-button {
     display: none;
   }
   .catalog-list {
-    display: flex;
     row-gap: 32px;
     column-gap: 23px;
     flex-wrap: wrap;
