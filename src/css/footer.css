@@ -1,10 +1,8 @@
-@import url('./base.css');
-
 .footer {
     border-radius: 30px;
     background: #0c0c0c;
-    max-width: 335px;
 }
+
 
 .logo-soc-tel-wrapper {
     display: flex;
@@ -35,17 +33,14 @@
     justify-content: center;
 }
 
-.footer-soc-link {}
-
 .footer-soc-icon {
     fill: #fbfbfb;
-
     transition: fill 250ms ease;
 }
 
 .footer-soc-icon:hover,
 .footer-soc-icon:focus {
-    fill: #3350e9;
+    fill: #ffffff;
 }
 
 .footer-telephone-wrapper {
@@ -86,15 +81,11 @@
     gap: 49px;
 }
 
-.footer-navigation {}
-
 .footer-navigation-list {
     display: flex;
     flex-wrap: wrap;
     gap: 8px 16px
 }
-
-.footer-navigation-item {}
 
 .footer-navigation-link {
     font-weight: 500;
@@ -121,7 +112,6 @@
 }
 
 .footer-text {
-
     font-size: 10px;
     line-height: 1.4;
     letter-spacing: -0.02em;
@@ -135,8 +125,6 @@
     gap: 20px;
 }
 
-.foter-policies-item {}
-
 .foter-policies-link {
     font-size: 10px;
     line-height: 1.4;
@@ -148,16 +136,12 @@
 }
 
 
-
-
-
 @media screen and (min-width: 768px) {
 
     .footer {
         max-width: 704px;
         position: relative;
     }
-
 
     .footer-logo {
         font-size: 20px;
@@ -264,6 +248,4 @@
         letter-spacing: -0.02em;
         margin: 0 auto;
     }
-
-
 }
