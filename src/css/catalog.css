@@ -34,12 +34,6 @@
   max-width: 335px;
 }
 
-/* .catalog-container {
-  padding: 0 28px;
-  padding-top: 10px;
-  padding-bottom: 24px;
-} */
-
 .img-overline {
   position: relative;
   overflow: hidden;
@@ -57,8 +51,6 @@
   text-align: center;
   color: #fbfbfb;
   display: block;
-  align-items: center;
-  justify-content: center;
   margin: 0 auto;
   margin-top: 40px;
   padding: 15px 44px;
@@ -76,7 +68,7 @@
 
 @media screen and (min-width: 768px) {
   .catalog-item {
-    width: calc((100% - 32px) / 2);
+    width: calc((100% - 16px) / 2);
   }
 
   .catalog-button {
@@ -89,10 +81,6 @@
   }
 
   .catalog-title {
-    margin-bottom: 40px;
-  }
-
-  .catalog-title {
     font-size: 48px;
     margin-bottom: 40px;
   }
@@ -102,12 +90,9 @@
     line-height: 1;
   }
 
-  .catalog-container {
-    padding: 24px 32px;
-  }
-
   .catalog-item {
     max-width: 344px;
+    padding: 24px 32px;
   }
 
   .clock-desc-tab {
