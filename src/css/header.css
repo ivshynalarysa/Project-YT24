@@ -248,7 +248,8 @@
         width: 330px;
         height: 1024px;
 
-        background-image: 
+        background-image:  linear-gradient(rgba(12, 12, 12, 0.92),
+        rgba(12, 12, 12, 0.92)),
             url(../img/header/tab-nav-bg.webp);
         background-repeat: no-repeat;
         background-position: center;
