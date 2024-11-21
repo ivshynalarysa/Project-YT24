@@ -2,6 +2,7 @@
     border-radius: 30px;
     background: #0c0c0c;
     max-width: 335px;
+    margin-bottom: 20px;
 }
 
 
@@ -104,6 +105,12 @@
     color: #fbfbfb;
     max-width: 89px;
 }
+
+.footer-adress-link {
+    text-decoration: none;
+    color: inherit;
+}
+
 
 .line {
     width: 100%;
