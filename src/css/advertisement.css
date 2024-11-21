@@ -6,10 +6,7 @@
     height: auto;
     background-color: #0c0c0c;
     background-image:  
-    linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
+    
         url(../img/advertisement/choosemobone.webp);
         background-repeat: no-repeat;
         background-position: center;
@@ -51,10 +48,7 @@
     
     @media  (min-resolution: 192dpi) {
         .advertisement-container {
-          background-image: linear-gradient(
-              rgba(46, 47, 66, 0.7),
-              rgba(46, 47, 66, 0.7)
-          ),
+          background-image: 
           url(../img/advertisement/choosemobtwo.webp);
         }
       }
@@ -63,9 +57,7 @@
         .advertisement-container {
           max-width: 1279px;
           height: 425px;
-          background-image: linear-gradient(
-            rgba(46, 47, 66, 0.7),
-            rgba(46, 47, 66, 0.7)),  
+          background-image: 
           url(../img/advertisement/choosetabletone.webp);
             background-repeat: no-repeat;
             background-position: center;
@@ -86,10 +78,7 @@
     @media  (min-resolution: 192dpi) {
         .advertisement-container {
            
-          background-image: linear-gradient(
-              rgba(46, 47, 66, 0.7),
-              rgba(46, 47, 66, 0.7)
-          ),
+          background-image: 
           url(../img/advertisement/choosetablettwo.webp);
         }
     
@@ -102,9 +91,7 @@
         max-width:  1150px;
         height: 298px;
            
-        background-image: linear-gradient(
-            rgba(46, 47, 66, 0.7),
-            rgba(46, 47, 66, 0.7)),  
+        background-image:   
         url(../img/advertisement/Choosedeskone.webp);
             background-repeat: no-repeat;
             background-position: center;
@@ -125,10 +112,7 @@
     
      @media  (min-resolution: 192dpi) {
       .advertisement-container {
-        background-image: linear-gradient(
-                  rgba(46, 47, 66, 0.7),
-                  rgba(46, 47, 66, 0.7)
-        ),
+        background-image: 
         url(../img/advertisement/choosedesktwo.webp);
         }
         
