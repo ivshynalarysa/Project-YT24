@@ -10,7 +10,7 @@
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-        url(./img/advertisement/choosemobone.webp);
+        url(../img/advertisement/choosemobone.webp);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -55,7 +55,7 @@
               rgba(46, 47, 66, 0.7),
               rgba(46, 47, 66, 0.7)
           ),
-          url(./img/advertisement/choosemobtwo.webp);
+          url(../img/advertisement/choosemobtwo.webp);
         }
       }
     
@@ -66,7 +66,7 @@
           background-image: linear-gradient(
             rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)),  
-          url(./img/advertisement/choosetabletone.webp);
+          url(../img/advertisement/choosetabletone.webp);
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
@@ -90,7 +90,7 @@
               rgba(46, 47, 66, 0.7),
               rgba(46, 47, 66, 0.7)
           ),
-          url(./img/advertisement/choosetablettwo.webp);
+          url(../img/advertisement/choosetablettwo.webp);
         }
     
       }
@@ -105,7 +105,7 @@
         background-image: linear-gradient(
             rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)),  
-        url(./img/advertisement/Choosedeskone.webp);
+        url(../img/advertisement/Choosedeskone.webp);
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
@@ -129,7 +129,7 @@
                   rgba(46, 47, 66, 0.7),
                   rgba(46, 47, 66, 0.7)
         ),
-        url(./img/advertisement/choosedesktwo.webp);
+        url(../img/advertisement/choosedesktwo.webp);
         }
         
      }   
