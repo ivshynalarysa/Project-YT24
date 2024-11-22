@@ -63,7 +63,7 @@
 
 .mobile-menu {
     width: 200px;
-    height: 812px;
+    height: 100%;
 
     background-image:  linear-gradient(rgba(12, 12, 12, 0.92),
     rgba(12, 12, 12, 0.92)),
