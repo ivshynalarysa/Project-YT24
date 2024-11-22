@@ -85,7 +85,7 @@
     .sale-card-container {
         width: 530px;
         height: 558px;
-        padding-right: 0;
+       
     }
 }
 
@@ -105,12 +105,7 @@
     }
 }
 
-@media screen and (min-width: 1280px) {
-    .sale-card-title {
-        margin-right: 80px;
-    }
 
-}
 
 .sale-product-tag {
     font-family: var(--font-family);
@@ -188,11 +183,7 @@
 
 }
 
-@media screen and (min-width: 1280px) {
-    .sale-product-description {
-        margin-right: 60px;
-    }
-}
+
 
 .sale-tags {
     display: flex;
@@ -211,12 +202,7 @@
 
 }
 
-@media screen and (min-width: 1280px) {
-    .sale-tags {
-        margin-right: 72px;
-    }
 
-}
 
 .tag {
     border: 1px solid rgba(251, 251, 251, 0.2);
