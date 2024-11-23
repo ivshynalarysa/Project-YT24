@@ -35,18 +35,26 @@
     cursor: pointer;
 }
 
+
 .footer-soc-item a {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.footer-soc-icon {
-    fill: #fbfbfb;
+.footer-soc-link {
+    display: block;
+    width: 100%;
+    height: 100%;
     transition: opacity 250ms ease;
 }
 
-.footer-soc-item:hover .footer-soc-icon {
+.footer-soc-icon {
+    fill: #fbfbfb;
+
+}
+
+.footer-soc-link:hover {
     fill: #ffffff;
     opacity: 0.8;
 }
