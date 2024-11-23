@@ -27,12 +27,12 @@
 .footer-soc-item {
     border: 1px solid rgba(251, 251, 251, 0.1);
     border-radius: 10px;
-    padding: 8px;
     width: 34px;
     height: 34px;
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 .footer-soc-item a {
@@ -43,13 +43,12 @@
 
 .footer-soc-icon {
     fill: #fbfbfb;
-    transition: fill 250ms ease;
-
+    transition: opacity 250ms ease;
 }
 
-.footer-soc-icon:hover,
-.footer-soc-icon:focus {
+.footer-soc-item:hover .footer-soc-icon {
     fill: #ffffff;
+    opacity: 0.8;
 }
 
 .footer-telephone-wrapper {
@@ -70,6 +69,14 @@
     text-transform: uppercase;
     text-align: center;
     color: #fbfbfb;
+    padding: 15px;
+    transition: opacity 250ms ease;
+}
+
+.footer-telephone-wrapper:hover .footer-telephone {
+    color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    opacity: 0.8;
 }
 
 .footer-long-text {
@@ -103,6 +110,14 @@
     text-align: center;
     color: #fbfbfb;
     display: block;
+    transition: opacity 250ms ease;
+}
+
+.footer-navigation-link:hover,
+.footer-navigation-link:focus {
+    color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    opacity: 0.8;
 }
 
 .footer-address {
@@ -111,6 +126,13 @@
     line-height: 1.33;
     color: #fbfbfb;
     max-width: 89px;
+    transition: opacity 250ms ease;
+}
+
+.footer-address:hover {
+    color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    opacity: 0.8;
 }
 
 .footer-adress-link {
@@ -148,8 +170,15 @@
     color: rgba(251, 251, 251, 0.5);
     opacity: 0.9;
     display: block;
+    transition: opacity color 250ms ease;
 }
 
+.foter-policies-item:hover .foter-policies-link,
+.foter-policies-item:focus .foter-policies-link {
+    color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    opacity: 0.8;
+}
 
 @media screen and (min-width: 768px) {
 
